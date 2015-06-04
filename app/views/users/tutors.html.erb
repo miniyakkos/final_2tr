@@ -26,11 +26,38 @@
   <% @tutors.each do |tutor| %>
     <div class="user" id="<%= tutor.id %>">
       <img src="<%= tutor.url %>" alt="Profile">
-      <p><%= tutor.first_name %></p>
-      <p><%= tutor.description %></p>
+      <h4><%= tutor.first_name %></h4>
+      <p>Hi, <%= tutor.description %></p>
+      <strong>Tutor Availability: <%= tutor.availability %></strong>
       <button class="invitation">Send chat invitation</button>
       <%= button_to "Profile", profile_path(tutor), method: :get %>
     </div>
   <% end %>
 </div>
 </div>
+
+<footer>
+  <div class="learn_more three columns">
+    <h5 class="docs-header">Learn More</h5>
+    <P>Read our Blog</P>
+    <P>How 2tr works</P>
+  </div>
+
+  <div class="need_help three columns">
+    <h5 class="docs-header">Contact Center</h5>
+    <P>customer@2tr.com</P>
+  </div>
+
+  <div class="about_2tr three columns">
+    <h5 class="docs-header">About 2tr</h5>
+    <P>In the Press</P>
+    <P>Jobs</P>
+  </div>
+
+  <div class="top_cities three columns">
+    <h5 class="docs-header">Top Cities</h5>
+    <P>San Francisco</P>
+    <P>Vancouver</P>
+    <P>Honolulu</P>
+  </div>
+</footer>

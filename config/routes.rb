@@ -10,6 +10,7 @@ Rails.application.routes.draw do
    post '/questions' => 'questions#create'
    get '/questions/:id/answers' => 'answers#show', as: 'answers'
    post '/questions/:id/answers' => 'answers#create'
+   # get '/questions/search' => 'questions#search', as: 'questions_search'
    get '/students' => 'users#students', as: 'students'
    get '/tutors' => 'users#tutors', as: 'tutors'
    get '/video' => 'users#video'
@@ -22,6 +23,7 @@ Rails.application.routes.draw do
    get '/curriculums/git' => 'curriculums#git', as: 'curriculums_git'
     get '/curriculums/subl' => 'curriculums#subl', as: 'curriculums_subl'
    get '/users/:id/invite' => 'users#invite'
+
 
 
   # Example of regular route:

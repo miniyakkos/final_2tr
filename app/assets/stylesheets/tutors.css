@@ -2,9 +2,10 @@
   margin-left: 5%;
   padding: 1%;
   border: 3px dotted #d9cdcd;
-  height: 400px;
+  height: 350px;
   width: 40%;
   float: left;
+  margin-bottom: 1%;
 }
 
 .user > img {
