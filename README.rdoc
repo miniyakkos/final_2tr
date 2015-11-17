@@ -1,19 +1,16 @@
 == README
 
-2Tr is a web based application to help people learn how to code through an online-based curriculum.
-2Tr provides a video chat based platform to connect code learners with volunteer tutors.
+2tr is a platform for new software engineers to receive help from experienced developers.
 
-2Tr offers:
+2tr offers:
 
-* Verified Online based curriculums for Ruby, HTML/CSS, Javascript and basic Computer Science
+* Curated list of online curriculums including courses in Ruby, HTML/CSS,and Javascript
 
-* Tutors can answer questions
+* Question and Answers forum
 
-* Certification to Tutors for their volunteering work
+* Request 1 on 1 video/text chat tutoring sessions from our verified tutors
 
 * Login through LinkedIn
 
 Heroku link:
-https://stormy-sierra-1647.herokuapp.com
-
-<tt>rake doc:app</tt>.
+https://the2tr.herokuapp.com
